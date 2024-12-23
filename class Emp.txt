@@ -1,0 +1,35 @@
+class Emp {
+
+	int id;
+	String name;
+	int sal;
+	String company;
+	String address;
+	
+	public Emp(int id, String name, int sal, String company, String address) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.sal = sal;
+		this.company = company;
+		this.address = address;
+	}
+	
+	@Override
+	public String toString() {
+		return "Emp [id=" + id + ", name=" + name + ", sal=" + sal + ", address=" + address + ", company=" + company
+				+ "]";
+	}
+}
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Emp e1 = new Emp(100,"Ramu",45000,"Hyd","Hp");
+		System.out.println(e1);
+		
+		
+		
+	}
+
+}
